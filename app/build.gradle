@@ -34,14 +34,12 @@ android {
     }
     sourceSets {
         client1 {
-            java {
-                srcDirs 'src\\client1\\java'
-            }
+            java.srcDirs = ['src/client1/java']
+            res.srcDirs = ['src/client1/res']
         }
         client2 {
-            java {
-                srcDirs 'src\\client2\\java'
-            }
+            java.srcDirs = ['src/client2/java']
+            res.srcDirs = ['src/client2/res']
         }
     }
 }
