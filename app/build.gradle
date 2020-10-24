@@ -32,6 +32,18 @@ android {
             dimension "version"
         }
     }
+    sourceSets {
+        client1 {
+            java {
+                srcDirs 'src\\client1\\java'
+            }
+        }
+        client2 {
+            java {
+                srcDirs 'src\\client2\\java'
+            }
+        }
+    }
 }
 
 dependencies {
