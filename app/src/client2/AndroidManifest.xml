@@ -2,6 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.buildvariants">
 
+    <uses-permission android:name="android.permission.INTERNET"
+        tools:node="merge"/>
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name">
